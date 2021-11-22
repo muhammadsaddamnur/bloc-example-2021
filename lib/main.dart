@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterbloc2021/features/exchange/view/exchange.dart';
 
 import 'features/exchange/bloc/exchange_bloc.dart';
+import 'features/exchange/presentation/exchange.dart';
 
 void main() {
   runApp(const MyApp());
