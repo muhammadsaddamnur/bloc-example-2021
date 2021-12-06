@@ -30,8 +30,8 @@ void main() {
     verifyNoMoreInteractions(mockRateRepository);
   });
   test('error', () async {
-    when(mockRateRepository!.getRate())
-        .thenAnswer((_) async => const Left(Failure()));
+    // when(mockRateRepository!.getRate())
+    //     .thenAnswer((_) async => const Left(Failure()));
 
     await usecase!.execute();
 
