@@ -47,3 +47,5 @@ write impl
 run test, see how the test fail and write impl until it pass
 
 repeat step above for each test
+
+'nice'
